@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="swag.RunCucumberTest" time="11.149" tests="4" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="swag.RunCucumberTest" time="25.761" tests="5" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 12\web-automation-testing\target\test-classes;D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 12\web-automation-testing\target\classes;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\ameli\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ameli\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ameli\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ameli\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ameli\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ameli\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ameli\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ameli\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ameli\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ameli\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ameli\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ameli\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ameli\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="D:\KULIAH\SEMESTER6\Testing\Week 12 - 13\web-automation-testing\target\test-classes;D:\KULIAH\SEMESTER6\Testing\Week 12 - 13\web-automation-testing\target\classes;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\salsa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\salsa\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\salsa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\salsa\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\salsa\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\salsa\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\salsa\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\salsa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\salsa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\salsa\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\salsa\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\salsa\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\salsa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="ID"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ameli\AppData\Local\Temp\surefire3003197271845489115\surefirebooter-20240512195327627_3.jar C:\Users\ameli\AppData\Local\Temp\surefire3003197271845489115 2024-05-12T19-53-27_455-jvmRun1 surefire-20240512195327627_1tmp surefire_0-20240512195327627_2tmp"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="E:\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\salsa\AppData\Local\Temp\surefire7515682463129683575\surefirebooter-20240512195958113_3.jar C:\Users\salsa\AppData\Local\Temp\surefire7515682463129683575 2024-05-12T19-59-57_917-jvmRun1 surefire-20240512195958113_1tmp surefire_0-20240512195958113_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 12\web-automation-testing\target\test-classes;D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 12\web-automation-testing\target\classes;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\ameli\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\ameli\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ameli\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ameli\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ameli\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ameli\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ameli\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ameli\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ameli\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ameli\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ameli\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ameli\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ameli\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ameli\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ameli\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ameli\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="D:\KULIAH\SEMESTER6\Testing\Week 12 - 13\web-automation-testing\target\test-classes;D:\KULIAH\SEMESTER6\Testing\Week 12 - 13\web-automation-testing\target\classes;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\salsa\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\salsa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\salsa\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\salsa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\salsa\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\salsa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\salsa\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\salsa\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\salsa\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\salsa\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\salsa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\salsa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\salsa\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\salsa\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\salsa\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\salsa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\ameli"/>
+    <property name="user.home" value="C:\Users\salsa"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2023-07-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="E:\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 12\web-automation-testing"/>
+    <property name="basedir" value="D:\KULIAH\SEMESTER6\Testing\Week 12 - 13\web-automation-testing"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ameli\AppData\Local\Temp\surefire3003197271845489115\surefirebooter-20240512195327627_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\salsa\AppData\Local\Temp\surefire7515682463129683575\surefirebooter-20240512195958113_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
-    <property name="user.name" value="ameli"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="Tata"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\ameli\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\salsa\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\ameli\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.8"/>
-    <property name="user.dir" value="D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 12\web-automation-testing"/>
+    <property name="java.io.tmpdir" value="C:\Users\salsa\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="D:\KULIAH\SEMESTER6\Testing\Week 12 - 13\web-automation-testing"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17\bin;C:\MinGW\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.1.12-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Program Files\Maven\apache-maven-3.9.4\bin;C:\Program Files\PuTTY\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\gradle-8.7\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\ameli\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\ameli\AppData\Local\Programs\Python\Python311\;C:\Users\ameli\AppData\Local\Microsoft\WindowsApps;C:\Users\ameli\AppData\Roaming\Composer\vendor\bin;C:\Users\ameli\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ameli\go\bin;C:\Users\ameli\AppData\Roaming\npm;C:\Users\ameli\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\gradle-8.7\bin;;D:\Software\IntelliJ IDEA 2024.1.1\bin;;."/>
+    <property name="java.library.path" value="E:\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\jdk-17\bin;E:\jdk-17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;E:\oracle\app\oracle\product\11.2.0\server\bin;D:\21c\dbhomeXE\bin;D:\oracledatabase\dbhomeXE\bin;C:\WINDOWS\system32;C:\ghcup\bin;E:\instantclient-basic-nt-11.2.0.4.0\instantclient_11_2;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\neo4j\bin;E:\Git\cmd;D:\xampp\php;C:\ProgramData\ComposerSetup\bin;D:\nodejs\;E:\PuTTY\;D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64;E:\apache-maven-3.9.6\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\salsa\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\salsa\AppData\Local\Programs\Python\Python311\;C:\Users\salsa\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;E:\Strawberry\perl\bin;E:\Strawberry\perl\site\bin;C:\Users\salsa\AppData\Roaming\cabal\bin;C:\tools\ghc-9.4.2\bin;C:\ghcup\bin;E:\swipl\bin;E:\mongosh\;C:\Users\salsa\AppData\Roaming\Composer\vendor\bin;C:\Users\salsa\AppData\Roaming\npm;E:\MiKTeX\miktex\bin\x64\;D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\Hostx64\x64;D:\JetBrains\IntelliJ IDEA 2024.1.1\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Login successful with valid credentials" classname="User Login" time="5.326">
+  <testcase name="Login successful with valid credentials" classname="User Login" time="6.171">
     <system-out><![CDATA[
 Scenario: Login successful with valid credentials &amp#27;[90m# src/test/resources/swag/login.feature:6&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                    &amp#27;[90m# swag.LoginStep.i_am_on_the_login_page()&amp#27;[0m
@@ -66,23 +66,52 @@ Entering username and password...
 Verifying successful login...
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be logged in successfully&amp#27;[0m         &amp#27;[90m# swag.LoginStep.i_should_be_logged_in_successfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 47590
+    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 38142
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2024 7:53:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 12, 2024 8:00:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login without providing a password" classname="User Login" time="1.503">
+  <testcase name="Login with wrong password" classname="User Login" time="4.581">
+    <failure message="Expected error message not found. Found: Epic sadface: Username and password do not match any user in this service" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected error message not found. Found: Epic sadface: Username and password do not match any user in this service
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:85)
+	at ✽.I should see a message saying "Username and password do not match any user in this service!"(file:///D:/KULIAH/SEMESTER6/Testing/Week%2012%20-%2013/web-automation-testing/src/test/resources/swag/login.feature:16)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Login with wrong password                                                                 &amp#27;[90m# src/test/resources/swag/login.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                                                                      &amp#27;[90m# swag.LoginStep.i_am_on_the_login_page()&amp#27;[0m
+Entering username and password...
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username and wrong password&amp#27;[0m                                                       &amp#27;[90m# swag.LoginStep.i_enter_my_username_and_wrong_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                                                                      &amp#27;[90m# swag.LoginStep.i_click_the_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see a message saying &amp#27;[0m&amp#27;[31m&amp#27;[1m"Username and password do not match any user in this service!"&amp#27;[0m &amp#27;[90m# swag.LoginStep.i_should_see_a_message_saying(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Expected error message not found. Found: Epic sadface: Username and password do not match any user in this service
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:85)
+	at âœ½.I should see a message saying "Username and password do not match any user in this service!"(file:///D:/KULIAH/SEMESTER6/Testing/Week%2012%20-%2013/web-automation-testing/src/test/resources/swag/login.feature:16)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 6725
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 12, 2024 8:00:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login without providing a password" classname="User Login" time="4.277">
     <failure message="Expected error message not found. Found: Epic sadface: Password is required" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected error message not found. Found: Epic sadface: Password is required
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
-	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:72)
-	at ✽.I should see a message saying "You need Password!"(file:///D:/Kuliah/Semester%206/PPL/Praktikum/Pertemuan%2012/web-automation-testing/src/test/resources/swag/login.feature:16)
+	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:85)
+	at ✽.I should see a message saying "You need Password!"(file:///D:/KULIAH/SEMESTER6/Testing/Week%2012%20-%2013/web-automation-testing/src/test/resources/swag/login.feature:22)
 ]]></failure>
     <system-out><![CDATA[
-Scenario: Login without providing a password              &amp#27;[90m# src/test/resources/swag/login.feature:12&amp#27;[0m
+Scenario: Login without providing a password              &amp#27;[90m# src/test/resources/swag/login.feature:18&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                            &amp#27;[90m# swag.LoginStep.i_am_on_the_login_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter my username but no password&amp#27;[0m                &amp#27;[90m# swag.LoginStep.i_enter_my_username_but_no_password()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                            &amp#27;[90m# swag.LoginStep.i_click_the_login_button()&amp#27;[0m
@@ -90,57 +119,57 @@ Scenario: Login without providing a password              &amp#27;[90m# src/test
       &amp#27;[31mjava.lang.AssertionError: Expected error message not found. Found: Epic sadface: Password is required
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
-	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:72)
-	at âœ½.I should see a message saying "You need Password!"(file:///D:/Kuliah/Semester%206/PPL/Praktikum/Pertemuan%2012/web-automation-testing/src/test/resources/swag/login.feature:16)
+	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:85)
+	at âœ½.I should see a message saying "You need Password!"(file:///D:/KULIAH/SEMESTER6/Testing/Week%2012%20-%2013/web-automation-testing/src/test/resources/swag/login.feature:22)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 51246
+    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 34907
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2024 7:53:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 12, 2024 8:00:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login without providing username and password" classname="User Login" time="1.421">
+  <testcase name="Login without providing username and password" classname="User Login" time="4.807">
     <failure message="Expected error message not found. Found: Epic sadface: Username is required" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected error message not found. Found: Epic sadface: Username is required
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
-	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:72)
-	at ✽.I should see a message saying "You need Username & Password!"(file:///D:/Kuliah/Semester%206/PPL/Praktikum/Pertemuan%2012/web-automation-testing/src/test/resources/swag/login.feature:21)
+	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:85)
+	at ✽.I should see a message saying "You need Username & Password!"(file:///D:/KULIAH/SEMESTER6/Testing/Week%2012%20-%2013/web-automation-testing/src/test/resources/swag/login.feature:27)
 ]]></failure>
     <system-out><![CDATA[
-Scenario: Login without providing username and password              &amp#27;[90m# src/test/resources/swag/login.feature:18&amp#27;[0m
+Scenario: Login without providing username and password              &amp#27;[90m# src/test/resources/swag/login.feature:24&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m                                       &amp#27;[90m# swag.LoginStep.i_am_on_the_login_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click the login button without entering credentials&amp#27;[0m         &amp#27;[90m# swag.LoginStep.i_click_the_login_button_without_entering_credentials()&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see a message saying &amp#27;[0m&amp#27;[31m&amp#27;[1m"You need Username & Password!"&amp#27;[0m &amp#27;[90m# swag.LoginStep.i_should_see_a_message_saying(java.lang.String)&amp#27;[0m
       &amp#27;[31mjava.lang.AssertionError: Expected error message not found. Found: Epic sadface: Username is required
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
-	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:72)
-	at âœ½.I should see a message saying "You need Username & Password!"(file:///D:/Kuliah/Semester%206/PPL/Praktikum/Pertemuan%2012/web-automation-testing/src/test/resources/swag/login.feature:21)
+	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:85)
+	at âœ½.I should see a message saying "You need Username & Password!"(file:///D:/KULIAH/SEMESTER6/Testing/Week%2012%20-%2013/web-automation-testing/src/test/resources/swag/login.feature:27)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 62066
+    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 32987
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2024 7:53:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 12, 2024 8:00:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Successful logout" classname="User Logout" time="2.408">
+  <testcase name="Successful logout" classname="User Logout" time="5.2">
     <system-out><![CDATA[
 Scenario: Successful logout                         &amp#27;[90m# src/test/resources/swag/logout.feature:6&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in and on the dashboard page&amp#27;[0m    &amp#27;[90m# swag.LogoutStep.i_am_logged_in_and_on_the_dashboard_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the logout button&amp#27;[0m                    &amp#27;[90m# swag.LogoutStep.i_press_the_logout_button()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be navigated back to the login page&amp#27;[0m &amp#27;[90m# swag.LogoutStep.i_should_be_navigated_back_to_the_login_page()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 9958
+    <system-err><![CDATA[Starting ChromeDriver 124.0.6367.201 (46cf136d27d50afd9c618d164a3b95b3b62d0027-refs/branch-heads/6367@{#1130}) on port 57039
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 12, 2024 7:53:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 12, 2024 8:00:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

@@ -33,6 +33,19 @@ public class LoginStep {
         }
     }
 
+    @When("I enter my username and wrong password")
+    public void i_enter_my_username_and_wrong_password() {
+        System.out.println("Entering username and password...");
+        try {
+            // Enter username and password
+            driver.findElement(By.id("user-name")).sendKeys("standard_user");
+            driver.findElement(By.id("password")).sendKeys("wrongpass");
+            Thread.sleep(1000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     @When("I enter my username but no password")
     public void i_enter_my_username_but_no_password() {
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
