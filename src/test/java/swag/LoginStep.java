@@ -20,6 +20,19 @@ public class LoginStep {
         driver.get("https://www.saucedemo.com/");
     }
 
+    @When("I enter my username and password")
+    public void i_enter_my_username_and_password() {
+        System.out.println("Entering username and password...");
+        try {
+            // Enter username and password
+            driver.findElement(By.id("user-name")).sendKeys("standard_user");
+            driver.findElement(By.id("password")).sendKeys("secret_sauce");
+            Thread.sleep(1000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     @When("I enter my username but no password")
     public void i_enter_my_username_but_no_password() {
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
@@ -38,6 +51,19 @@ public class LoginStep {
         driver.findElement(By.id("user-name")).clear();
         driver.findElement(By.id("password")).clear();
         driver.findElement(By.id("login-button")).click();
+    }
+
+    @Then("I should be logged in successfully")
+    public void i_should_be_logged_in_successfully() {
+        System.out.println("Verifying successful login...");
+        try {
+            // Verifying successful login
+            String currentUrl = driver.getCurrentUrl();
+            Assert.assertEquals("https://www.saucedemo.com/inventory.html", currentUrl);
+            Thread.sleep(1000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Then("I should see a message saying {string}")
