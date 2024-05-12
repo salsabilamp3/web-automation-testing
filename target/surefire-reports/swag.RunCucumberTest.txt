@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: swag.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.41 s <<< FAILURE! -- in swag.RunCucumberTest
-User Login.Login without providing a password -- Time elapsed: 3.219 s <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.15 s <<< FAILURE! -- in swag.RunCucumberTest
+User Login.Login without providing a password -- Time elapsed: 1.503 s <<< FAILURE!
 java.lang.AssertionError: Expected error message not found. Found: Epic sadface: Password is required
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:72)
-	at ✽.I should see a message saying "You need Password!"(file:///D:/KULIAH/SEMESTER6/Testing/Week%2012%20-%2013/web-automation-testing/src/test/resources/swag/login.feature:16)
+	at ✽.I should see a message saying "You need Password!"(file:///D:/Kuliah/Semester%206/PPL/Praktikum/Pertemuan%2012/web-automation-testing/src/test/resources/swag/login.feature:16)
 
-User Login.Login without providing username and password -- Time elapsed: 3.091 s <<< FAILURE!
+User Login.Login without providing username and password -- Time elapsed: 1.421 s <<< FAILURE!
 java.lang.AssertionError: Expected error message not found. Found: Epic sadface: Username is required
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at swag.LoginStep.i_should_see_a_message_saying(LoginStep.java:72)
-	at ✽.I should see a message saying "You need Username & Password!"(file:///D:/KULIAH/SEMESTER6/Testing/Week%2012%20-%2013/web-automation-testing/src/test/resources/swag/login.feature:21)
+	at ✽.I should see a message saying "You need Username & Password!"(file:///D:/Kuliah/Semester%206/PPL/Praktikum/Pertemuan%2012/web-automation-testing/src/test/resources/swag/login.feature:21)
 
