@@ -82,7 +82,8 @@ public class LoginStep {
     @Then("I should see a message saying {string}")
     public void i_should_see_a_message_saying(String expectedMessage) {
         String actualMessage = driver.findElement(By.className("error-message-container")).getText();
-        Assert.assertTrue("Expected error message not found. Found: " + actualMessage, actualMessage.contains(expectedMessage));
+        Assert.assertTrue("Expected error message : '" + expectedMessage + "' not found. Found: " + actualMessage,
+                actualMessage.contains(expectedMessage));
     }
 
     @After
