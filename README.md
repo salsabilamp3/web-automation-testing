@@ -24,7 +24,33 @@ Sebelum menjalankan project ini, perlu disiapkan environment yang sesuai.
 Berikut ini merupakan struktur kode beserta penjelasannya
 ```
 {nama_proyek}
+├─ src
+│ ├─ main
+│ ├─ test
+│ │ ├─ java
+│ │ │ ├─ swag
+│ │ │ │ ├─ helper
+│ │ │ │ │ └─ SwagWebDriverManager.java
+│ │ │ │ ├─ pagefactory
+│ │ │ │ │ ├─ HomePageFactory.java
+│ │ │ │ │ └─ LoginPageFactory.java
+│ │ │ │ ├─ steps
+│ │ │ │ │ ├─ LoginSteps.java
+│ │ │ │ │ └─ LogoutSteps.java
+│ │ │ │ ├─ tests
+│ │ │ │ │ └─ TestRunner.java
+│ │ ├─ resources
+│ │ │ ├─ swag
+│ │ │ │ ├─ login.feature
+│ │ │ │ └─ logout.feature
 ```
+<ul>
+ <li>package helper berisi property supporting project yaitu untuk inisiasi web driver untuk menjalankan browser.</li>
+ <li>package pagefactory berisi inisiasi untuk mencari element web yang diperlukan untuk pengujian</li>
+ <li>package steps berisi step definitions yang akan dijalankan dari scenario pengujian yang didefinisikan pada .feature</li>
+ <li>package test berisi konfigurasi untuk menjalankan test dengan cucumber.</li>
+ <li>package resources berisi feature-feature yang merupakan scenario pengujian yang akan dilakukan.</li>
+</ul>
 
 ## Run Automation Test
 1. Clone repository dengan git
