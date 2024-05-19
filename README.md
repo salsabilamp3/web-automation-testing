@@ -21,7 +21,7 @@ Sebelum menjalankan project ini, perlu disiapkan environment yang sesuai.
 </ul>
 
 ## Struture Project Test
-Berikut ini merupakan struktur kode beserta penjelasannya
+Berikut ini merupakan struktur project beserta penjelasannya
 ```
 {nama_proyek}
 ├─ src
