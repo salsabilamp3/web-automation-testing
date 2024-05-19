@@ -5,10 +5,8 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
-        features = "src/test/resources/swag",
-        glue = "swag/steps",
-        plugin = {"pretty", "html:target/cucumber-reports.html"} // Generates HTML report in the target/cucumber-reports directory
+@CucumberOptions(features = "src/test/resources/swag", glue = "swag/steps", plugin = { "pretty",
+                "html: testreport/test-reports.html" } // Generates HTML report in the testreport/test-reports directory
 )
-public class TestRunner{
+public class TestRunner {
 }

@@ -8,13 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPageFactory {
     WebDriver driver;
 
-    @FindBy(id = "user-name")
+    @FindBy(xpath = "//*[@id='user-name']")
     WebElement userName;
 
-    @FindBy(id = "password")
+    @FindBy(xpath = "//*[@id='password']")
     WebElement password;
 
-    @FindBy(id = "login-button")
+    @FindBy(xpath = "//*[@id='login-button']")
     WebElement loginButton;
 
     @FindBy(className = "error-message-container")
@@ -47,4 +47,3 @@ public class LoginPageFactory {
         clickLogin();
     }
 }
-
