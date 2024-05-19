@@ -43,6 +43,8 @@ Berikut ini merupakan struktur kode beserta penjelasannya
 │ │ │ ├─ swag
 │ │ │ │ ├─ login.feature
 │ │ │ │ └─ logout.feature
+├─ testreport
+│ └─ test-reports.html
 ```
 <ul>
  <li>package helper berisi property supporting project yaitu untuk inisiasi web driver untuk menjalankan browser.</li>
@@ -50,6 +52,7 @@ Berikut ini merupakan struktur kode beserta penjelasannya
  <li>package steps berisi step definitions yang akan dijalankan dari scenario pengujian yang didefinisikan pada .feature</li>
  <li>package test berisi konfigurasi untuk menjalankan test dengan cucumber.</li>
  <li>package resources berisi feature-feature yang merupakan scenario pengujian yang akan dilakukan.</li>
+ <li>packagae testreport berisi generated test report dari test yang dijalankan.</li>
 </ul>
 
 ## Run Automation Test
@@ -64,6 +67,14 @@ Berikut ini merupakan struktur kode beserta penjelasannya
 3. Jalankan perintah berikut pada terminal untuk menjalankan semua test
    ```
    mvn test
+   ```
+   Untuk menjalankan test berdasarkan nama scenario dapat menjalankan perintah berikut. (Pastikan menjalankan perintah dengan command prompt)
+   ```
+   mvn test -Dcucumber.filter.name="namaScenario"
+   ```
+   Untuk menjalankan test berdasarkan tags dapat menjalankan perintah berikut. (Pastikan menjalankan perintah dengan command prompt)
+   ```
+   mvn test -Dcucumber.filter.tags="namaTag"
    ```
 
 ## Test Cases
