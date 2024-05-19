@@ -100,6 +100,6 @@ Pembuatan test case meliputi test positif dan negatif untuk fitur Login dan Logo
 
 [Salsabila Maharani Putri](https://github.com/salsabilamp3) (211524026)
 
-[Raka Mahardika Maulana](https://github.com/rakamhrdka10) (211524056)
+[Raka Mahardika Maulana](https://github.com/Rakamhrdka17) (211524056)
 
 _Mahasiswa D4 Teknik Informatika Politeknik Negeri Bandung_
