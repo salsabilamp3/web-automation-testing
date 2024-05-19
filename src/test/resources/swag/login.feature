@@ -29,7 +29,6 @@ Feature: User Login
   @amelTest
   Scenario: Login without providing username and password
     Given I am on the login page
-    When I enter my username "" and password ""
-    And I click the login button
+    When I click the login button
     Then I should remain on the login page
     And I should see a message saying "You need Username & Password!"
