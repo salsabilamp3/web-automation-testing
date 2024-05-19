@@ -37,6 +37,12 @@ public class LoginSteps {
         Assert.assertEquals("https://www.saucedemo.com/inventory.html", currentUrl);
     }
 
+    @Then("I should remain on the login page")
+    public void i_should_remain_on_the_login_page() {
+        String currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals("https://www.saucedemo.com/", currentUrl);
+    }
+
     @Then("I should see a message saying {string}")
     public void i_should_see_a_message_saying(String expectedMessage) {
         String actualMessage = loginPageFactory.getErrorMessage();
